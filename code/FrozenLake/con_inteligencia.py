@@ -35,7 +35,28 @@ def choose_action_max(state):
     return action
 
 
+# Start
+for episode in range(num_episodes):
+    state = env.reset()
+    t = 0
 
+    while t < max_steps:
+        # env.render() --- Uncomment if you want to see the path of the agent
+        action = choose_action(state)
+        state2, reward, done, info = env.step(action)
+        learn(state, state2, reward, action)
+        state = state2
+        t += 1
+
+        if done:
+            break
+
+    if reward == 1:
+        print("Episode {} finished after {} timesteps and reward was {} ".format(episode + 1, t, reward))
+
+
+
+#######
 num_episodes = 1000
 total_reward = 0
 num_shows = 5
