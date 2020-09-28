@@ -1,0 +1,3 @@
+gym
+numpy
+#sudo apt-get install ffmpeg parte visual
