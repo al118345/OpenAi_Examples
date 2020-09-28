@@ -1,3 +1,8 @@
 gym
 numpy
-#sudo apt-get install ffmpeg parte visual
+#sudo apt-get install ffmpeg parte visual en mac brew install ffmpeg
+
+#cd ~/Downloads/
+#sudo mkdir -p /usr/local/bin/
+#sudo cp ./ffmpeg /usr/local/bin
+#sudo chmod ugo+x /usr/local/bin/ffmpeg
