@@ -1,7 +1,7 @@
 gym
 numpy
 #sudo apt-get install ffmpeg parte visual en mac brew install ffmpeg
-
+gfootball
 #cd ~/Downloads/
 #sudo mkdir -p /usr/local/bin/
 #sudo cp ./ffmpeg /usr/local/bin
