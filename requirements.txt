@@ -6,3 +6,10 @@ gfootball
 #sudo mkdir -p /usr/local/bin/
 #sudo cp ./ffmpeg /usr/local/bin
 #sudo chmod ugo+x /usr/local/bin/ffmpeg
+kaggle_environments
+requests
+IPython
+imageio
+tqdm
+reinforcement_learning_keras
+sklearn
